@@ -1,9 +1,9 @@
-A description of what happens at every recursive step. In the big picture, we are splitting one line segment into four, but you'll need a bit more detail 
-than that. 
-
+A description of what happens at every recursive step. In the big picture, we are splitting one line segment into four, but you'll need a bit more detail than that. 
+I will start with the equaliteral triangle and divide each side of the equaliteral triangle into three qual pieces. Then for each side, we will take out the middle segment and add two line that is equal to the line we took out, and connect the two line to the other segment that is not taken out and make a small "bump". And we repeat this process for each side and this creats a recursive structure. 
 
 A description of the base case (how the recursion stops)
-
+The recursion stops when the length of the segment becomes smaller than a certain number. 
 
 How you might use the translate and rotate functions to your benefit. 
-
+Translate allows me to move the shape to a new position. 
+Rotaie allows me to change the direction of the segments especially when I need to create the "bumps". 
