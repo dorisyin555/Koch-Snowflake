@@ -1,0 +1,9 @@
+A description of what happens at every recursive step. In the big picture, we are splitting one line segment into four, but you'll need a bit more detail 
+than that. 
+
+
+A description of the base case (how the recursion stops)
+
+
+How you might use the translate and rotate functions to your benefit. 
+
